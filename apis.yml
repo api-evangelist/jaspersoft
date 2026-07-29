@@ -1,8 +1,28 @@
 aid: jaspersoft
 name: Jaspersoft
-description: 'Jaspersoft is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: data-analytics. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Jaspersoft is a business intelligence and embedded analytics platform, now part of
+  Cloud Software Group (formerly TIBCO). Its flagship products are the open-source
+  JasperReports Library — a Java reporting engine (net.sf.jasperreports) — and
+  JasperReports Server, a reporting and analytics server that exposes a REST API
+  (rest_v2) for managing the repository, running and scheduling reports, executing
+  queries, and administering users, roles, and organizations. Developers embed
+  Jaspersoft content into their own applications with Visualize.js and the js-visualize
+  component library, and interact with the server programmatically through official
+  Java and PHP REST clients. Sector: data analytics / business intelligence. Backed by
+  Sapphire Ventures; surfaced into the API Evangelist network as a portfolio company.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/2073963?v=4
 url: https://raw.githubusercontent.com/api-evangelist/jaspersoft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Data Analytics
+- Business Intelligence
+- Embedded Analytics
+- Reporting
+- Data Visualization
+- Dashboards
+- REST API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.jaspersoft.com/
+- type: Documentation
+  url: https://community.jaspersoft.com/documentation/
+- type: Support
+  url: https://community.jaspersoft.com/
+- type: GitHubOrganization
+  url: https://github.com/Jaspersoft
+- type: Packages
+  url: packages/jaspersoft-packages.yml
+- type: SDKs
+  url: packages/jaspersoft-packages.yml
+- type: Components
+  url: components/jaspersoft-components.yml
+- type: ChangeLog
+  url: changelog/jaspersoft-changelog.yml
+- type: DomainSecurity
+  url: security/jaspersoft-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

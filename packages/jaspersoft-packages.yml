@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: Maven Central, Packagist, and the Jaspersoft GitHub organization (https://github.com/Jaspersoft)
+packages:
+  - language: java
+    registry: maven
+    name: net.sf.jasperreports:jasperreports
+    url: https://central.sonatype.com/artifact/net.sf.jasperreports/jasperreports
+    install: 'implementation "net.sf.jasperreports:jasperreports:7.0.7"'
+    latest_version: 7.0.7
+    official: true
+    notes: JasperReports Library — the core open-source Java reporting engine (LGPL-3.0).
+  - language: java
+    registry: github
+    name: jrs-rest-java-client
+    url: https://github.com/Jaspersoft/jrs-rest-java-client
+    install: 'clone/build from https://github.com/Jaspersoft/jrs-rest-java-client'
+    official: true
+    notes: Official Java REST client for the JasperReports Server REST API. Not published to Maven Central; built from source.
+  - language: php
+    registry: packagist
+    name: jaspersoft/rest-client
+    url: https://packagist.org/packages/jaspersoft/rest-client
+    install: composer require jaspersoft/rest-client
+    official: true
+    notes: Official PHP REST client wrapper for the JasperReports Server REST API (requires PHP 5.3+ with cURL, JasperReports Server 5.2+).

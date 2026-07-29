@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Jaspersoft/jasperreports/releases
+scope: JasperReports Library (core reporting engine) GitHub releases
+scheme: semver
+current_version: 7.0.7
+entries:
+  - version: 7.0.7
+    date: '2026-05-29'
+    name: JasperReports 7.0.7
+  - version: 7.0.6
+    date: '2026-03-13'
+    name: JasperReports 7.0.6
+  - version: 7.0.5
+    date: '2026-03-09'
+    name: JasperReports 7.0.5
+  - version: 7.0.4
+    date: '2026-03-05'
+    name: JasperReports 7.0.4
+  - version: 6.21.5
+    date: '2025-07-04'
+    name: JasperReports 6.21.5
+notes: >-
+  Recent-window snapshot of the JasperReports Library release stream. The GitHub
+  Releases page is the live source of truth; per-release highlights were not
+  captured verbatim.

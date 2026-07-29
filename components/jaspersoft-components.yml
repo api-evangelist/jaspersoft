@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Jaspersoft/js-visualize and http://jaspersoft.github.io/js-visualize/
+families:
+  - name: Visualize.js
+    kind: embedded-analytics
+    description: >-
+      JavaScript API framework for embedding JasperReports Server reports, Ad Hoc views,
+      and dashboards inside web applications. Ships with commercial editions of
+      JasperReports Server (AWS / Enterprise / Professional).
+    loader: '<script src="[server]/jasperserver-pro/client/visualize.js"></script>'
+    samples: http://jaspersoft.github.io/js-visualize/
+    repo: https://github.com/Jaspersoft/js-visualize
+    embeds:
+      - Reports (pagination, input controls, hyperlinks, export)
+      - Ad Hoc views (interactive visualizations, data controls)
+      - Dashboards (embedded input controls, interactive hyperlinks)
+    official: true
+  - name: js-visualize-components
+    kind: ui-components
+    description: >-
+      Jaspersoft Visualize component library (BSD-3-Clause) — packaged UI components
+      built on top of Visualize.js for embedding analytics surfaces.
+    repo: https://github.com/Jaspersoft/js-visualize-components
+    official: true
